@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Topic 4:-Tables,Forms & Video embedding</title>
+<style>
+    button {
+        background-color: aquamarine;
+    }
+</style>
+</head>
+<h2> 1.Use of Ul and Li</h2>
+
+<body>
+    <ul type="square">
+        <!-- ul stands for unordered list here i mentioned the points going to be square type -->
+        <!-- li list item -->
+        <li><B>WARNING :-</B> This should be used in CSS style as mostly desiging work goes to CSS</li>
+        <li> Home</li>
+        <li> About</li>
+        <li> Section</li>
+        <li> contact</li>
+    </ul>
+    <!-- ol refers ordered list -->
+    <!-- here types represets styles like romanic,italic -->
+    <ol type="U">
+        <li> Home</li>
+        <li> About</li>
+        <li> Section</li>
+        <li> contact</li>
+        <br>
+        <div>
+
+            <ul type="square">
+                <li> <b>Div tag :-</b> The tag is used as a container for HTML elements -which is then styled with CSS
+                    or manipulated with JavaScript.</b>
+                </li>
+                <table>
+                    <li> <b>Table tag :-</b>is used to difine tables in html
+                        It is used to display tabular data.
+            </ul>
+            </li>
+            <hr>
+            <h2>2.Tables Display </h2>
+            <caption><u>Players Gameplay data</u></caption>
+            <tr>
+                <th>S.no</th>
+                <th>Player no</th>
+                <th>Maximum Score</th>
+                <th>Game</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Kequing</td>
+                <td>7000</td>
+                <td> Genshin impact</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ganyu</td>
+                <td>4000</td>
+                <td> Genshin impact</td>
+            </tr>
+            <tr>
+                <td> 3</td>
+                <td>Yelan</td>
+                <td>10000</td>
+                <td> Genshin impact</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Zhongli</td>
+                <td>15000</td>
+                <td> Genshin impact</td>
+            </tr>
+            </table>
+        </div>
+    </ol>
+    <ul type="disk">
+        <li><b> TR TAG</b> is used to display table row</li>
+        <li><b> TD TAG</b> is used to display table data</li>
+        <li><b> TH TAG</b> is used to display table headness </li>
+
+    </ul>
+    <div>
+        <table>
+            <caption> <u> Player Gameplay Database</u></caption>
+            <tr>
+                <thead>
+                    <th>S.no</th>
+                    <th>Player no</th>
+                    <th>Maximum Score</th>
+                    <th>Game</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Yae miko</td>
+                <td>12000</td>
+                <td> Genshin impact</td>
+            </tr>
+            </thead>
+            <tr>
+                <tbody>
+                    <td>2</td>
+                    <td>Sagonomiya Kokomi</td>
+                    <td>12001</td>
+                    <td> Genshin impact</td>
+            </tr>
+            <tr>
+                <td> 3</td>
+                <td>Kamisato Ayaka</td>
+                <td>11000</td>
+                <td> Genshin impact</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Raiden Shogun</td>
+                <td>16000</td>
+                <td> Genshin impact</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <ul type="disk">
+        <li> <b>THREAD TAG:-</b> used to wrap table head (Caption & within)</li>
+        <li><b> TBODY TAG:-</b> used to wrap the table body <B> As it more gonna be useful by using CSS</B></li>
+        <li><b> COLSPAN ATTRIBUTE :-</b> This attribute is used to create cells spamming multiple columns.</li>
+        <li> <b> <u>Example:-</u> th COLSPAN ="3"</b>
+            So it will merge the two columns if you hide the one particulator one
+        </li>
+    </ul>
+    <hr>
+    <h2>3.Forms</h2>
+    <h3> Your Details</h3>
+    <form action="form.php"></form>
+    <input type="text" placeholder="Enter your name"> <BR>
+    <label for="sectionida">
+        <b>Your Region belongs to:- </b>
+        <input type="radio" value="A" name="section" section id="sectionida"> Liyue
+    </label>
+    <label for="sectionidb">
+        <input type="radio" value="B" name="section" section id="sectionidb"> Inazuma
+    </label>
+    <label for="sectionidc">
+        <input type="radio" value="C" name="section" section id="sectionidc"> Sumeru
+    </label>
+    <br>
+    <hr>
+    <label for="Food">
+        <b>Do you want to Eat Food? </b>
+        <input type="checkbox" value="f" name="Want Food " id="Food"> Want food
+    </label>
+    <label for="Food">
+        <input type="checkbox" value="nf" name="dont want " id="Foodd"> Dont want food
+    </label>
+    <!-- roll no refers to id and these small tages like students -->
+    <!-- name same hei toh ek hei select hoga -->
+    </BR>
+    <ul type="disk">
+        <li> <b>HTML FORMS:-</b> Am Html form is used to collect input from the user form tag is used for the Same</li>
+        <li> <b>Input Elemnet:-</b> Can be of type text,checkbox,radio,button and submit </li>
+        <li> <b>Placeholder:-</b> as the input for naming suggest like that box made for adding this type of thing It
+            will remove if you start typing </li>
+        <li> <b> ** This is to note that if i put <U>"d"</U> at the end of id name then i have to click on the checkbox
+                itself
+                and if i not then it will automatically select the and will check in word itself.</b></li>
+        <br>
+        <textarea name="explain" id="explain" cols="30" rows="10" placeholder="Explain why you want or not?">
+        </textarea>
+        <select name="Food" id="foodi">
+            <option value="food"> Select Your Food</option>
+            <option value="food"> Chesse Massla balls</option>
+            <option value="food"> Panner Butter Masasla</option>
+            <option value="food"> Stinky Tofu</option>
+        </select>
+        <li><b>Textarea</b> element represents a multi-line plain-text editing control, useful when you want to allow
+            users to
+            enter a sizeable amount of free-form text, for example a comment on a review or feedback form.</li>
+        <li><b>You dont have to remember all the tags, you will automatically memorize them with practice</b></li>
+        <!-- alt+z word for wrap -->
+    </ul>
+    <hr>
+    <h2>4.Embedding Videos</h2>
+    <hr>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/l6so0i29T6k?si=D1ZTltncYNzil-o0"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <ul type="square">
+        <li><b>Youtube video embedding</b></li>
+        <br>
+        <iframe src="https://genshin.hoyoverse.com/en/" frameborder="0" width="892px"></iframe>
+        <li><b>Website embedding </b></li>
+        <br>
+        <video src="infinty castle.mp4" controls loop width="700px"></video>
+        <li><b>Video Embedding</b></li>
+        <br>
+        <li><b>WARNING:-</b>The Video should contain in your folder where you are working.</li>
+        <li>Funfact Controls,all Blue Tags are Attributes</li>
+        <li> <b>Autoplay & loop:-</b>will repeat the video embedded it.</li>
+    </ul>
+    <hr>
+</body>
+<h2> 5.Practice Questions</h2>
+<ol type="1">
+    <li>Create an HTML page with Videoo Embedded Inside it.</li>
+    <video src="Sukuna vs. Jogo (Shibuya Incident Arc) fan animation.mp4" controls width="700px"></video>
+    <br>
+    <li>Replace this video in 1 with a Youtube video</li>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/R2OQnIg1Ya4?si=_vJAgLMw5ZNWmfLv"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen width="700px"></iframe>
+    <hr>
+    <li>Create an HTML Form for a Panel Website to book a vacation</li>
+    <ul type="disk">
+    <li><b>Your Contact Details :-</b></li>
+    <form action="form.php"></form>
+    <input type="text" placeholder="Enter your Name">
+    <form action="form.txt"></form>
+    <input type="text" placeholder="Proffession">
+    <form action="form.txt"></form>
+    <input type="text" placeholder="Contact No">
+    <br>
+    <label for="regionbelongsd">
+        <input type="text" name="?" value="Region?"id="regionbelongsd">
+    </label>
+    <br>
+
+    <li><b>Region which you want to visit:-</b></li>
+    <label for="regionbelongsy">
+        <input type="radio" value="Kyoto" name="Region which you want to visit"id="regionbelongsy"> Kyoto
+    </label>
+    <br>
+    <label for="regionbelongst">
+        <input type="radio" value="Tokyo" name="Region which you want to visit"id="regionbelongst"> Tokyo
+    </label>
+    <br>
+    <label for="regionbelongsr">
+        <input type="radio" value="Osawa" name="Region which you want to visit"id="regionbelongsr"> Osawa
+    </label>
+    <br>
+    <label for="regionbelongse">
+        <input type="radio" value="Shenzen" name="Region which you want to visit"id="regionbelongse"> Shenzen
+    </label>
+    <br>
+    <label for="regionbelongsw">
+        <input type="radio" value="Shangai" name="Region which you want to visit"id="regionbelongsw"> Shangai
+    </label>
+    <br>
+    <li><b>Means of Transport which you want to prefer:-</b></li>
+    <label for="Airways">
+        <input type="radio"name="ways"value="Airways"id="Airways"> Airways
+    </label>
+    <br>
+    <label for="Railways">
+    <input type="radio"name="ways"value="Railways"id="Railways"> Railways
+    </label>
+    <br>
+    <label for="Boatways">
+    <input type="radio"name="ways"value="Boatways"id="Boatways"> Boatways
+    </label>
+    <br>
+    <li><b>For Which Reason you want to go? Explain:-</b></li>
+    <textarea name="why?"placeholder="for which reason?" id="whyd" cols="30" rows="10">
+    </textarea>
+    <select name="Payment" id="payementd">
+    <option value="select your payement methods"> Select your payement methods</option>
+    <option value="Razorpay">Razorpay</option>
+    <option value="Paypal">Paypal</option>
+    <option value="Visa"> Visa</option>
+    <option value="Mastercard"> Mastercard</option>
+    </select>
+    <br>
+    </ul>
+    <li>Create a table displaying score of Valorant Players in a match using HTML?</li>
+     <caption><h3><b><u>Scoring of Deathatch</u></b></h3></caption>
+     <table>
+     <tr>
+        <th> S.no</th>
+        <th> Name</th>
+        <th> Score</th>
+        <th> Kills</th>
+        <th> Deaths</th>
+        <th> Assists</th>
+     </tr>
+     <tr>
+        <td>1</td>
+        <td>Jett</td>
+        <td>20,000</td>
+        <td>38</td>
+        <td>19</td>
+        <td>9</td>
+     </tr>
+     <tr>
+        <td>2</td>
+        <td>Kayio</td>
+        <td>18,000</td>
+        <td>36</td>
+        <td>17</td>
+        <td>13</td>
+     </tr>
+     <tr>
+        <td>3</td>
+        <td>Chamber</td>
+        <td>12,000</td>
+        <td>35</td>
+        <td>23</td>
+        <td>12</td>
+     </tr>
+     <tr>
+        <td>4</td>
+        <td>Reyna</td>
+        <td>10,000</td>
+        <td>30</td>
+        <td>24</td>
+        <td>11</td>
+     </tr>
+     <tr>
+        <td>5</td>
+        <td>Phoneix</td>
+        <td>9,000</td>
+        <td>30</td>
+        <td>25</td>
+        <td>15</td>
+     </tr>
+     <tr>
+        <td>6</td>
+        <td>Gekko</td>
+        <td>8,000</td>
+        <td>25</td>
+        <td>21</td>
+        <td>23</td>
+     </tr>
+    </table>
+</ol>
+<br>
+<hr>
+<ul type="square">
+<li>For Chapter 5 Click the link :-</li>
+<a href="http://127.0.0.1:5500/chapter%205.html"target="_main"> <button> Go Chapter 5</button></a>
+<li><b>Already in Chapter 4</b></li>
+<li>For Chapter 3 Click the link :-</li>
+<a href="http://127.0.0.1:5500/chapter%203.html"target="_main"> <button> Go Chapter 3</button></a>
+<li>For Chapter 2 Click the link :-</li>
+  <a href="http://127.0.0.1:5500/chapter%202.html" target="_main"> <button> Go Chapter 2</button></a>
+<li>For Chapter 1 Click the link :-</li>
+  <a href="http://127.0.0.1:5500/chapter%201.html" target="_main"> <button> Go Chapter 1</button></a>
+</ul>
+</html>
